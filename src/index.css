@@ -1,0 +1,17 @@
+/*
+  PROJECT WIDE CSS
+*/
+body {
+  margin: 0;
+  padding: 0;
+  /*background-color: #222;*/
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* COLORS */
+.black { color: #222; }
+.yellow { color: #FACC38; }
+
+/* BACKGROUND COLORS */
+.black-bg { background-color: #222; }
+.white-bg { background-color: #FBFBFB; }
