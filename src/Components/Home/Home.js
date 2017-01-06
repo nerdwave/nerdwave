@@ -1,41 +1,63 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router';
+/*s
+ *
+* HOME PAGE 🏠🕋 🌍
+*/
 
-// some interal components
-import MouseIcon  from './MouseIcon';
-import Definition from './Definition';
+import React, { Component } from 'react';
+// import { Link } from 'react-router';
 
 class Home extends Component {
+
+
   render() {
     return (
       <div className="HomePage">
-        <div className="Home black-bg vh-100 min-vh-100 pa3 bb b--gold">
-          <nav className="dt w-100 border-box pa3 ph5-ns vhs-top vhs-delay-6">
-            <Link className="yellow dtc v-mid mid-gray link dim w-25" href="#" to="/">
-              plug
-            </Link>
-            <div className="dtc v-mid w-75 tr">
-              <Link className="link dim yellow f6 f5-ns dib mr3 mr4-ns" to="/about">who</Link>
-              <Link className="link dim yellow f6 f5-ns dib mr3 mr4-ns" to="/about">what</Link>
-              <Link className="link dim yellow f6 f5-ns dib mr3 mr4-ns" to="/about">where</Link>
-              <Link className="link dim yellow f6 f5-ns dib mr3 mr4-ns" to="/about">why</Link>
-            </div>
-          </nav>
-          
-          <div className="tc">
-            <h1 className="yellow f-headline tracked-tight vhs-flicker vhs-delay-5">plug</h1>
-            <h2 className="white f3 vhs-bottom vhs-delay-6">plug in to your neighborhood</h2>
-          </div>
+        {/** HEAD PAGE WRAPPUH **/}
+        <div className="Home black-bg vh-100 min-vh-100 pa3 bb b--white">
+          {/** U. FIRST SET **/}
+            {/** --- nerd wave ~ loader --- **/}
 
-          <MouseIcon />
+            {/** -- background videos -- **/}
+
+            {/**  --navbar-- **/}
+            <nav className="pa3 pa4-ns">
+              <a className="link dim green hover-light-purple b f1 f-headline-ns tc db mb3 mb4-ns" href="#" title="Home">nerdwave</a>
+              <div className="tc pb3">
+                <a className="link dim gray f6 f5-ns dib mr3" href="#" title="Home">Home</a>
+                <a className="link dim gray f6 f5-ns dib mr3" href="#" title="About">About</a>
+                <a className="link dim gray f6 f5-ns dib mr3" href="#" title="Store">Store</a>
+                <a className="link dim gray f6 f5-ns dib" href="#" title="Contact">Contact</a>
+              </div>
+            </nav>
+
+            {/** -- middle -- **/}
+
+
+            {/** -- background videos -- **/}
+            
+          
+            {/** ---title wave shit--- **/}
+            
+            {/** ++videos++ **/}
+
+            {/** +++ random things, explosions💥, delays +++ **/}
+
         </div>
 
-        {/* Additional Sections */}
-        <Definition />
+        <div className="">
+        {/**
 
+        **/}
+        </div>
+
+        {/**
+         MOR SECTIONZ 
+        **/}
+ 
       </div>
     );
   }
 }
 
+// ATTACH IT
 export default Home;

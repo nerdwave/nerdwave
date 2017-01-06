@@ -10,10 +10,7 @@ import './styles.css';
 class MouseIcon extends Component {
   render() {
     return (
-      <div className="mouse vhs-bottom vhs-delay-6">
-        <div className="scroll">
-        </div>
-      </div>
+      
     );
   }
 }

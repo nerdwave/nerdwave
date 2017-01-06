@@ -11,7 +11,11 @@ body {
 /* COLORS */
 .black { color: #222; }
 .yellow { color: #FACC38; }
+.blue { color: #39BEFB; }
+.green { color: #89AF51; }
 
 /* BACKGROUND COLORS */
+.star-bg { background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); overflow: hidden; }
 .black-bg { background-color: #222; }
 .white-bg { background-color: #FBFBFB; }
+.blue-bg { background-color: #39BEFB; }
