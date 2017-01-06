@@ -19,3 +19,8 @@ body {
 .black-bg { background-color: #222; }
 .white-bg { background-color: #FBFBFB; }
 .blue-bg { background-color: #39BEFB; }
+
+#pic {
+  background-color: #EEC935;
+  /*background:url(http://mrmrs.io/photos/001.jpg);*/
+}
