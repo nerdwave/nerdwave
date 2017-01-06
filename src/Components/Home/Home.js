@@ -16,7 +16,7 @@ class Home extends Component {
         <div className="Home black-bg min-vh-100 min-vh-100 pa3">
           {/** U. FIRST SET **/}
             {/** --- nerd wave ~ loader --- **/}
-
+            
             {/** -- background videos -- **/}
 
             {/**  --navbar-- **/}
@@ -31,9 +31,9 @@ class Home extends Component {
             </nav>
 
             {/** -- middle (skroll sections) -- **/}
-            <article className="mw5 mw7-ns center bg-light-gray pa3 pa5-ns">
+            <article className="mw5 mw7-ns center bg-light-gray pa3 pa5-ns br4 shadow-3">
 
-              <h4 className="f6">16:9</h4>
+              <h4 className="f6">this post is: 16:9</h4>
               <div className="aspect-ratio aspect-ratio--16x9 mb4">
                 <div className="aspect-ratio--object cover " id="pic"></div>
               </div>
@@ -65,12 +65,10 @@ class Home extends Component {
             </article>
 
 
-            {/** -- background videos -- **/}
-            
-          
             {/** ---title wave shit--- **/}
             
             {/** ++videos++ **/}
+
 
             {/** +++ random things, explosions💥, delays +++ **/}
 
